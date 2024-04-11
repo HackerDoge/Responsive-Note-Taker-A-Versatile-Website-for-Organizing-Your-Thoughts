@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,400;1,100;1,300&family=Fira+Sans:wght@300&family=Roboto+Condensed&display=swap');
+body{
+    background-color: rgb(24, 24, 24);
+    overflow: hidden;
+}
+*{
+    font-family: 'Roboto Condensed','ira Sans', Courier, monospace;
+    margin: 0;
+    padding: 0;
+   
+}
+ .Header{
+    padding: 0% 1% 0% 1%;
+    align-items: center;   
+ }
+.Navi{   
+    float:right!important;
+    font-size:18px!important;
+    /*   --NOT WORKING CODE--
+
+    padding-right:30px!important;
+    margin-right:120px !important;
+    margin: 2%;
+              ----------
+    */
+    /*padding-bottom: 0px!important;*/
+    padding-right: 33px!important;
+    margin-right: 3px !important;
+    margin: 38px;
+   
+    
+}   
+.hero{
+padding: 156px 46px 31px 3px;
+justify-content:left;
+align-items: center;
+flex-direction: ;
+color: white;
+}
+div.ghar{
+ margin: 8% 17% 20%;
+ background-color: black;
+ border: 1px solid black;
+ border-radius: 20px;
+}
+
+.container {
+    
+    padding: 5px 15px 20px 15px ;
+   
+    border-radius: 9px ;
+}
+input[type="text"],
+input[type="email"],  
+textarea {
+    width: 96%;
+    padding: 12px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin: 5px;
+
+}
+.st{
+    padding-top: 2%;
+    color: white;
+    text-indent: 30px;
+    
+    border-radius:5px;
+   
+}
+
+input[type="submit"]{
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius:5px;
+    cursor: pointer;
+    width: 100px;
+    background-color:#215dc5;
+}
+input[type="submit"]:hover{
+    background-color: #2266db;
+    
+}
